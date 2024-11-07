@@ -1,0 +1,12 @@
+@media only screen and (min-width: 576px) {
+    @for $i from 1 through 12 {
+      .col-md-#{$i} {
+        width: 8.33333333333% * $i;
+      }
+    }
+    @for $i from 0 through 12 {
+      .offset-md-#{$i} {
+        margin-left: 8.33333333333% * $i;
+      }
+    }
+  }

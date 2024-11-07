@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1000px) {
+  @for $i from 1 through 12 {
+    .col-xl-#{$i} {
+      width: 8.33333333333% * $i;
+    }
+  }
+  @for $i from 1 through 12 {
+    .offset-xl-#{$i} {
+      margin-left: 8.33333333333% * $i;
+    }
+  }
+}

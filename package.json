@@ -1,0 +1,23 @@
+{
+  "name": "sass-bootstrap-web-2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "desktop-scss": "npx sass --watch ./public/scss/desktop/desktop.scss:./public/css/desktop/desktop.css",
+    "mobile-scss": "npx sass --watch ./public/scss/mobile/mobile.scss:./public/css/mobile/mobile.css",
+    "tablet-scss": "npx sass --watch ./public/scss/tablet/tablet.scss:./public/css/tablet/tablet.css"
+  },
+  "devDependencies": {
+    "sass": "^1.80.6",
+    "vite": "^5.4.10"
+  },
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
